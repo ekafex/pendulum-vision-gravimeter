@@ -2,6 +2,8 @@
 
 A High-Resolution Pendulum Gravimetry via Computer Vision and Optical Self-Calibration!
 
+
+
 ## Project Overview
 
 This project explores the use of a simple physical pendulum, combined with modern computer vision and careful calibration, to estimate gravitational acceleration and study pendulum dynamics at high resolution. The goals are:
@@ -12,6 +14,18 @@ This project explores the use of a simple physical pendulum, combined with moder
 - To calibrate the camera using a known pixel-pitch display and image synthesis
 - To evaluate the theoretical and experimental limits of such a system for accurate measurement
 
+
+## Experimental Setup
+
+<img src="./figs/Aparatus.svg" width="500"/>
+*Figure 1: Full schematic of the pendulum and vision-based measurement system.*
+
+
+<img src="./figs/Aparatus2.svg" width="500"/>
+*Figure 2: Mapping from pendulum coordinates to sensor pixel coordinates.*
+
+<img src="./figs/Camera.svg" width="500"/>
+*Figure 3: Optical model of the webcam used for motion capture.*
 
 
 ## System Components
@@ -134,8 +148,7 @@ This project explores the use of a simple physical pendulum, combined with moder
 
 ##  Folder Structure (Suggested)
 
-
-
+```
 ├ **pendulum-vision-gravimeter**/
 
 ├── simulation/
@@ -154,7 +167,7 @@ This project explores the use of a simple physical pendulum, combined with moder
 │ └── diagrams, plots, photos
 ├── README.md
 └── requirements.txt
-
+```
 
 
 
@@ -163,4 +176,15 @@ This project explores the use of a simple physical pendulum, combined with moder
 
 This project was developed as a personal weekend exploration of how far a simple experimental system could be pushed using modern tools. The focus was not on publishing results but learning and integrating skills across physics, hardware calibration, simulation, and computer vision.
 
-If you 
+If you are interested in building something similar or collaborating, feel free to reach out.
+
+
+
+## License
+
+- **Code** in this repository is licensed under the [MIT License](./LICENSE).
+- **Documentation, images, and diagrams** are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — you are free to share and adapt them with proper attribution.
+
+
+
+
