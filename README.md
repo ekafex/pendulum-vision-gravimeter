@@ -1,4 +1,4 @@
-# pendulum-vision-gravimeter
+# **pendulum-vision-gravimeter**
 
 A High-Resolution Pendulum Gravimetry via Computer Vision and Optical Self-Calibration!
 
@@ -17,14 +17,18 @@ This project explores the use of a simple physical pendulum, combined with moder
 
 ## Experimental Setup
 
-<img src="./figs/Aparatus.svg" width="500"/>
+<img src="./figs/Aparatus.svg" width="60%"/>
+
 *Figure 1: Full schematic of the pendulum and vision-based measurement system.*
 
 
-<img src="./figs/Aparatus2.svg" width="500"/>
+<img src="./figs/Aparatus2.svg" width="60%"/>
+
 *Figure 2: Mapping from pendulum coordinates to sensor pixel coordinates.*
 
-<img src="./figs/Camera.svg" width="500"/>
+
+<img src="./figs/Camera.svg" width="60%"/>
+
 *Figure 3: Optical model of the webcam used for motion capture.*
 
 
